@@ -1,5 +1,11 @@
 # azure-multi-region-secure-network-webapp-lab
-Azure multi-region infrastructure deployment using ARM templates, PowerShell, App Service, Traffic Manager, NSGs, ASGs, Bastion access and failover testing
+Hands-on Azure infrastructure project demonstrating secure network architecture, ARM template automation, and multi-region high availability deployment.
+
+## Overview
+Azure multi-region infrastructure deployment using ARM templates, PowerShell, App Service, Traffic Manager, NSGs, ASGs, Bastion access and failover testing.
+## Architecture Diagram
+
+![Architecture](architecture/azure-network-diagram.png)
 
 ## Repository Structure
 
