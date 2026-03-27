@@ -1,0 +1,97 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "EA_NSG_Name": {
+            "value": "EAST-ASIA-NSG-01"
+        },
+        "sg_rule_name_1": {
+            "value": "EA_Allow_RDP_From_Internet"
+        },
+        "description_1": {
+            "value": "Allow RDP from internet to DMZ subnet"
+        },
+        "protocol_1": {
+            "value": "Tcp"
+        },
+        "destinationPortRange_1": {
+            "value": "3389"
+        },
+        "sourceAddressPrefix_1": {
+            "value": "Internet"
+        },
+        "access_1": {
+            "value": "allow"
+        },
+        "priority_1": {
+            "value": "110"
+        },
+        "direction_1": {
+            "value": "Inbound"
+        },
+        "sg_rule_name_2": {
+            "value": "EA_Allow_RDP_From_DMZ"
+        },
+        "description_2": {
+            "value": "Allow port 3389 for webserver access"
+        },
+        "protocol_2": {
+            "value": "Tcp"
+        },
+        "destinationPortRange_2": {
+            "value": "3389"
+        },
+        "access_2": {
+            "value": "Allow"
+        },
+        "priority_2": {
+            "value": "120"
+        },
+        "direction_2": {
+            "value": "Inbound"
+        },
+        "sg_rule_name_3": {
+            "value": "EA_Allow_MSSQL_From_WebEAp"
+        },
+        "description_3": {
+            "value": "Allow port 1433 webserver to MSSQL"
+        },
+        "protocol_3": {
+            "value": "Tcp"
+        },
+        "destinationPortRange_3": {
+            "value": "1433"
+        },
+        "access_3": {
+            "value": "Allow"
+        },
+        "priority_3": {
+            "value": "130"
+        },
+        "direction_3": {
+            "value": "Inbound"
+        },
+        "sg_rule_name_4": {
+            "value": "EA_Deny_All_From_DMZ_TO_MSSQL"
+        },
+        "description_4": {
+            "value": "Block All Traffic"
+        },
+        "protocol_4": {
+            "value": "Tcp"
+        },
+        "destinationPortRange_4": {
+            "value": "*"
+        },
+        "access_4": {
+            "value": "Deny"
+        },
+        "priority_4": {
+            "value": "140"
+        },
+        "direction_4": {
+            "value": "Inbound"
+        }
+        
+    }
+}
