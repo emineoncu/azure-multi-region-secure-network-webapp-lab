@@ -185,5 +185,14 @@ Production Support Engineer
 Cloud Operations Engineer
 
 
+## Deployment Steps (High Level)
+1. Deploy ARM templates (VNet, NSG, ASG)
+2. Configure network segmentation
+3. Deploy VMs using PowerShell
+4. Configure web servers
+5. Deploy App Service in multiple regions
+6. Configure Traffic Manager for failover
+
+
     
 
