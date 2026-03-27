@@ -5,7 +5,7 @@ Hands-on Azure infrastructure project demonstrating secure network architecture,
 Azure multi-region infrastructure deployment using ARM templates, PowerShell, App Service, Traffic Manager, NSGs, ASGs, Bastion access and failover testing.
 ## Architecture Diagram
 
-![Architecture](architecture/azure-network-diagram.png)
+![Architecture]([URL](https://github.com/emineoncu/azure-multi-region-secure-network-webapp-lab/blob/main/architecture))
 
 ## Repository Structure
 
