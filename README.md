@@ -4,6 +4,7 @@ Hands-on Azure infrastructure project demonstrating secure network architecture,
 ## Overview
 Azure multi-region infrastructure deployment using ARM templates, PowerShell, App Service, Traffic Manager, NSGs, ASGs, Bastion access and failover testing.
 ## Architecture Diagram
+This diagram represents the secure network architecture and traffic flow between Bastion, Web, and Database tiers.
 
 ![Architecture](architectureazure-network-diagram.jpg)
 
@@ -159,17 +160,15 @@ If the primary region becomes unavailable, traffic automatically routes to the s
 
 ---
 
-# Skills Demonstrated
+## Skills Demonstrated
 
-Azure Networking  
-Infrastructure as Code (ARM Templates)  
-Network segmentation design  
-Application Security Groups  
-Network Security Groups  
-PowerShell automation  
-Multi-region architecture  
-High availability routing  
-Cloud troubleshooting and validation
+- Azure Networking (VNet, Subnets, NSG, ASG)
+- Infrastructure as Code (ARM Templates)
+- PowerShell Automation
+- Secure Network Design (Bastion-based access)
+- Multi-tier Architecture (DMZ, Web, Database)
+- High Availability & Failover (Traffic Manager)
+- Cloud Troubleshooting & Deployment Validation
 
 ---
 
